@@ -48,6 +48,7 @@ class Main extends ExpressConfig {
           'http://localhost:3000/api',
           'https://loan-client.vercel.app/api',
           'http://192.168.1.4:3000/api',
+          '*'
         ],
       }),
     );
